@@ -14,9 +14,8 @@
                 
                 <ul>
                     <li><a href="">Home</a></li>
-                    <li><a href="">News</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">About</a></li>
+                    <li><a href="">Quem somos?</a></li>
+                    <li><a href="">FAQ</a></li>
                 </ul>
 
             </nav>
@@ -29,14 +28,36 @@
         <br>
     </section>
 
+    <br>
+
     <div class="container">
 
     <section class="rg1">
-        <p>Seja bem vindo ao Arakeia!</p>
+
+        <div class="card">
+            <div class="card_header">
+                <h3 class="card_title">Boas vindas à Arakéia!</h3>
+            </div>
+            <div class="card_body">
+                <p>Somos uma comunidade lusófona baseada no jogo Sandbox Minecraft e as histórias que construímos nele, num universo fictício próprio, palco para civilizações, religiões, política e fantasia! Buscamos trazer essa experiência através de plugins no jogo e mecânicas únicas, também garantindo algo justo, divertido e eficiente. Criada há quase 4 anos, Arakéia é uma espécie de "Simulador Político", se aproveitando das propriedades únicas do Minecraft para permitir uma experiência única. Comece sua exploração visitando nossa Enciclopédia Online ou lendo nossas regras em detalhes para evitar punições. Você também pode contribuir financeiramente com o projeto, veja nosso catálogo de doações em <a href="">Vitrine</a></p>
+            </div>
+        </div>
+
     </section>
 
     <section class="rg2">
-        <p>Seja bem vindo ao Arakeia!</p>
+
+        <div class="card">
+            <div class="card_header">
+                <h3 class="card_title">Nosso IP!</h3>
+            </div>
+            <div class="card_body">
+                <p>🠊 IP Java & Bedrock: Indefinido</p>
+                <p>🠊 Porta Bedrock: Indefinido</p>
+                <p>🠊 Versão: 1.18.x até 1.20.X</p>
+            </div>
+        </div>
+        
     </section>
 
     </div>
@@ -109,18 +130,41 @@ p{
 }
 
 .rg1 {
-    text-align: center;
     margin: 5px;
-    background-color: rgb(255, 0, 0);
+    background-color: transparent;
     float: right;
     width: 70%;
 }
 
+.rg1 p {margin: 11px;}
+
+.rg1 h3 {text-align: center; font-size: 22px}
+
 .rg2 {
     text-align: center;
     margin: 5px;
-    background-color: brown;
+    background-color: transparent;
     float: left;
     width: 30%;
+}
+
+.card {
+    margin-bottom: 20px;
+    text-align: center
+}
+
+.card .card_header {
+    background-color: #696969;
+    color: #fff;
+    padding: .75rem 1.25rem;
+}
+
+.card .card_header .card_title {
+    font-size: 22px
+}
+
+.card .card_body {
+    background-color: #929292;
+    padding: 1.25rem;
 }
 </style>
