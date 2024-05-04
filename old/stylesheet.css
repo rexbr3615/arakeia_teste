@@ -1,0 +1,134 @@
+
+    body{background-color: black;}
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  float: right;
+  width: 100%;
+    }
+
+    .header {
+    background-color: #000000;
+    padding: 20px 0;
+}
+
+.header-container {
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a.logo {
+    font-size: 2.25rem;
+	font-weight: 300;
+    color: rgb(221, 255, 255);
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+    
+    
+
+.arakeia_logo { size: 5%; float: left; width: 10%;}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+p{
+    color: azure;
+}
+
+.container {
+    display: flex;
+}
+
+.rg1 {
+    margin: 5px;
+    background-color: transparent;
+    float: right;
+    width: 70%;
+}
+
+.rg1 p {margin: 11px;}
+
+.rg1 h3 {text-align: center; font-size: 22px}
+
+.rg2 {
+    text-align: center;
+    margin: 5px;
+    background-color: transparent;
+    float: left;
+    width: 30%;
+}
+
+.card {
+    margin-bottom: 20px;
+    text-align: center
+}
+
+.card .card_header {
+    background-color: #696969;
+    color: #fff;
+    padding: .75rem 1.25rem;
+}
+
+.card .card_header .card_title {
+    font-size: 22px
+}
+
+.card .card_body {
+    background-color: #929292;
+    padding: 1.25rem;
+}
+
+footer {
+    padding: 32px;
+    background-color: #111111;
+    text-align: center;
+}
+
+footer span {
+    color: rgb(221, 255, 255);
+    font-style: italic;
+}
+
+
+
+.logo_center:hover{
+    transform: scale(2.1);
+}
+.logo_center {
+    transform: scale(1.25);
+    margin-top: 63px;
+    margin-bottom: 63px;
+}
+
+.logo_center_background {
+    background: url('nostalgia.png');
+    background-repeat: no-repeat;
+    background-size: 15px 100px;
+    background-position: center;
+    background-size: auto, cover;
+    
+}
+
