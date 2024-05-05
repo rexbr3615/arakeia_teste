@@ -1,22 +1,16 @@
 
 body{background-color: #1e319e;}
 ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-/*background-color: #333;*/
-float: right;
-width: 100%;
-
-        border: #a88019 5px solid;
-        border-radius: 7px;
-        
-
-        background-image: linear-gradient(to bottom, #a88019, #daa520, rgb(192, 150, 45), rgb(243, 191, 59), 150, 45);
-        background: linear-gradient(#a88019, #daa520, rgb(192, 150, 45), rgb(243, 191, 59));
-
-
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: linear-gradient(to right, #246992, #52a4aa, #28719b, #51a0a6, #28688e);
+    border: #246992 1px solid;
+    border-radius: 20px;
+    float: right;
+    width: 100%;
+    margin-right: 8px;
 }
 
 .header {
