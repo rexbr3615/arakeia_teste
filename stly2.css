@@ -12,13 +12,15 @@ ul {
     background-image: linear-gradient(to right, #246992, #52a4aa, #28719b, #51a0a6, #28688e);
     border: #246992 1px solid;
     border-radius: 20px;
-    float: right;
+    
     width: 100%;
     margin-right: 8px;
+    margin-left: 8px;
 }
 
+
+
 .header {
-/*background-color: #435ADB;*/
 background-image: linear-gradient(to right, #BF953F, #f8ef91, #B38728, #fcf391, #AA771C);
 padding: 20px 0;
 border-top: #866613 5px solid;
@@ -31,7 +33,7 @@ border-top-right-radius: 9px;
 .header-container {
 
 margin: 0 auto;
-display: flex;
+/*display: flex;*/
 justify-content: space-between;
 align-items: center;
 }
@@ -41,7 +43,6 @@ font-size: 2.25rem;
 font-weight: 300;
 color: rgb(221, 255, 255);
 font-family: 'MADE Sunflower', sans-serif;
-margin-left: 8px;
 }
 
 .nav-menu {
