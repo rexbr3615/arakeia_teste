@@ -1,17 +1,27 @@
 
-body{background-color: black;}
+body{background-color: #1e319e;}
 ul {
 list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
-background-color: #333;
+/*background-color: #333;*/
 float: right;
 width: 100%;
+
+        border: #a88019 5px solid;
+        border-radius: 7px;
+        
+
+        background-image: linear-gradient(to bottom, #a88019, #daa520, rgb(192, 150, 45), rgb(243, 191, 59), 150, 45);
+        background: linear-gradient(#a88019, #daa520, rgb(192, 150, 45), rgb(243, 191, 59));
+
+
 }
 
 .header {
-background-color: #000000;
+/*background-color: #435ADB;*/
+background-image: linear-gradient(to right, #BF953F, #f8ef91, #B38728, #fcf391, #AA771C);
 padding: 20px 0;
 }
 
@@ -27,6 +37,7 @@ a.logo {
 font-size: 2.25rem;
 font-weight: 300;
 color: rgb(221, 255, 255);
+margin-left: 8px;
 }
 
 .nav-menu {
@@ -87,7 +98,11 @@ text-align: center
 }
 
 .card .card_header {
-background-color: #696969;
+/*background-color: #a88019 ;*/
+background: linear-gradient(#a88019, #daa520, rgb(192, 150, 45), #a88019);
+border-top: #866613 5px solid;
+border-right: #866613 5px solid;
+border-left: #866613 5px solid;
 color: #fff;
 padding: .75rem 1.25rem;
 }
@@ -97,7 +112,11 @@ font-size: 22px
 }
 
 .card .card_body {
-background-color: #435ADB;
+/*background-color: #daa520 ;*/
+background-image: linear-gradient(rgb(231, 178, 43), #cfa740, #a88019);
+border-bottom: #866613 5px solid;
+border-right: #866613 5px solid;
+border-left: #866613 5px solid;
 padding: 1.25rem;
 }
 
@@ -134,10 +153,10 @@ background-attachment: fixed;
 }
 
 .card_header {
-border-top-left-radius: 5px;
-border-top-right-radius: 5px;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
 }
 .card_body {
-border-bottom-left-radius: 5px;
-border-bottom-right-radius: 5px;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
 }
