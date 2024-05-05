@@ -40,6 +40,7 @@ a.logo {
 font-size: 2.25rem;
 font-weight: 300;
 color: rgb(221, 255, 255);
+font-family: 'MADE Sunflower', sans-serif;
 margin-left: 8px;
 }
 
@@ -68,9 +69,12 @@ li a:hover {
 background-color: #111;
 }
 
-p{
-color: azure;
-}
+@import url('https://fonts.cdnfonts.com/css/made-sunflower');
+
+p{color: azure;font-family: 'MADE Sunflower', sans-serif;}
+h1 {color: azure;font-family: 'MADE Sunflower', sans-serif;}
+h2 {color: azure;font-family: 'MADE Sunflower', sans-serif;}
+h3 {color: azure;font-family: 'MADE Sunflower', sans-serif;}
 
 .container {
 display: flex;
@@ -123,10 +127,18 @@ border-left: #866613 5px solid;
 padding: 1.25rem;
 }
 
-footer {
+/*footer {
 padding: 32px;
 background-color: #111111;
 text-align: center;
+}*/
+
+footer {
+    padding: 32px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #000000, #2c2b2b, #434349, #2c2b2b, #000000);
+    text-align: center;
+    border: #000000 1px solid;
 }
 
 footer span {
